@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "image": "../public/images/LAPTOP.png",
+    "price": 39999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Phone",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  },
+  {
+    "id": 3,
+    "name": "washing machine",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  },
+  {
+    "id": 4,
+    "name": "Laptop",
+    "image": "../public/images/LAPTOP.png",
+    "price": 39999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 50
+  },
+  {
+    "id": 5,
+    "name": "Phone",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  },
+  {
+    "id": 6,
+    "name": "washing machine",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  },
+  {
+    "id": 7,
+    "name": "Phone",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  },
+  {
+    "id": 8,
+    "name": "washing machine",
+    "image": "../public/images/LAPTOP.png",
+    "price": 9999,
+    "description": "High-performance laptop with fast processing.",
+    "stock": 150
+  }
+]

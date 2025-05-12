@@ -6,7 +6,11 @@ export default {
     "./src/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        100: "400px",
+      },
+    },
   },
   plugins: [],
 };

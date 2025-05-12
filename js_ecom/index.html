@@ -5,24 +5,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Ecom</title>
     <link rel="stylesheet" href="/src/input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="mx-auto min-h-screen">
     <header
       class="nav-bar flex justify-between items-center px-32 py-4 bg-slate-100"
     >
-      <div class="font-semibold text-xl bg-orange-300 p-2 rounded-md">
-        Krishna.
+      <div
+        class="flex font-semibold text-xl px-6 py-2 gap-1 rounded-md border-2 border-orange-400"
+      >
+        <span>Krishna</span>
+        <span class="bg-orange-300 px-2 flex items-center rounded-md"
+          >Store.</span
+        >
       </div>
       <div>
-        <ul class="flex gap-8">
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>PRODUCTS</li>
-          <li>CONTACT</li>
-          <li>ROBIN</li>
+        <ul class="flex gap-8 items-center">
+          <li
+            class="hover:underline underline-offset-4 hover:decoration-orange-400"
+          >
+            <a href="/">HOME</a>
+          </li>
+          <li
+            class="hover:underline underline-offset-4 hover:decoration-orange-400"
+          >
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li
+            class="hover:underline underline-offset-4 hover:decoration-orange-400"
+          >
+            <a href="products.html">PRODUCTS</a>
+          </li>
+          <li
+            class="hover:underline underline-offset-4 hover:decoration-orange-400"
+          >
+            <a href="contact.html">CONTACT</a>
+          </li>
+          <div class="bg-orange-300 py-2 px-6 rounded-md hover:bg-orange-400">
+            <a href="cart.html"> <i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
         </ul>
       </div>
     </header>
+
+    <div
+      class="hero-section flex justify-between items-center mx-16 my-4 h-96 gap-4"
+    >
+      <div
+        class="w-1/2 h-96 bg-gradient-to-br from-orange-300 to-slate-200 p-16"
+      >
+        <p class="text-center">EXPLORE THE LATEST PRODUCTS</p>
+        <p class="text-3xl text-center font-semibold text-sky-500 mt-2">
+          Your Destination for
+        </p>
+        <p class="text-3xl text-center font-semibold text-sky-500">
+          Cutting-Edge Gadgets!
+        </p>
+        <p class="mt-2 text-justify p-4 text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quia
+          maiores, dolores nisi, perspiciatis tempora eveniet ullam repudiandae
+          ipsam, beatae a modi voluptatum?
+        </p>
+        <div class="flex justify-center items-center">
+          <button
+            class="bg-orange-300 px-8 py-2 text-center font-semibold rounded-md mt-4"
+          >
+            Explore our Products
+          </button>
+        </div>
+      </div>
+
+      <div class="w-1/2">
+        <img src="./public/images/gadgets.jpg" class="h-96" alt="error" />
+      </div>
+    </div>
+    <div class="custom-shape-divider-bottom bg-sky-200">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          fill="#fad7a0"
+        >
+          >
+        </path>
+      </svg>
+    </div>
+
+    <div class="new-year-sale flex justify items-center p-8">
+      <div class="flex justify-center items-center">
+        <div class="h-48 w-60 p-6">
+          <p class="text-center">NEW YEAR SALE</p>
+          <p class="text-center text-lg font-semibold mt-2">
+            Get And Extra 50% off
+          </p>
+          <div
+            class="flex justify-center items-center bg-orange-300 px-4 py-2 rounded-md mt-4"
+          >
+            <button>shop now</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./public/images/gadgets.jpg"
+            class="h-48 w-60 rounded-br-md rounded-bl-md"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="h-48 w-60 p-6">
+          <p class="text-center">NEW YEAR SALE</p>
+          <p class="text-center text-lg font-semibold mt-2">
+            Get And Extra 50% off
+          </p>
+          <div
+            class="flex justify-center items-center bg-orange-300 px-4 py-2 rounded-md mt-4"
+          >
+            <button>shop now</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./public/images/gadgets.jpg"
+            class="h-48 w-60 rounded-br-md rounded-bl-md"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="h-48 w-60 p-6">
+          <p class="text-center">NEW YEAR SALE</p>
+          <p class="text-center text-lg font-semibold mt-2">
+            Get And Extra 50% off
+          </p>
+          <div
+            class="flex justify-center items-center bg-orange-300 px-4 py-2 rounded-md mt-4"
+          >
+            <button>shop now</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./public/images/gadgets.jpg"
+            class="h-48 w-60 rounded-br-md rounded-bl-md"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-evenly gap-8 items-center p-8">
+      <div
+        class="flex justify-center gap-8 items-center bg-sky-200 p-4 rounded-md"
+      >
+        <div>
+          <i class="fa-solid fa-truck-fast text-xl text-orange-400"></i>
+        </div>
+        <div>
+          <p class="font-semibold">World wide shipping</p>
+          <p class="text-center">order above $100</p>
+        </div>
+      </div>
+
+      <div class="flex justify- items-center bg-sky-200 p-4 rounded-md">
+        <div>
+          <i class="fa-solid fa-truck-fast text-xl text-orange-400"></i>
+        </div>
+        <div>
+          <p class="font-semibold">World wide shipping</p>
+          <p class="text-center">order above $100</p>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-center gap-8 items-center bg-sky-200 p-4 rounded-md"
+      >
+        <div>
+          <i class="fa-solid fa-truck-fast text-xl text-orange-400"></i>
+        </div>
+        <div>
+          <p class="font-semibold">World wide shipping</p>
+          <p class="text-center">order above $100</p>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-center gap-8 items-center bg-sky-200 p-4 rounded-md"
+      >
+        <div>
+          <i class="fa-solid fa-truck-fast text-xl text-orange-400"></i>
+        </div>
+        <div>
+          <p class="font-semibold">World wide shipping</p>
+          <p class="text-center">order above $100</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="products-container" class="flex flex-wrap p-16 mx-8"></div>
+
+    <!-- <div id="box" class="h-32 w-32 bg-blue-200"></div> -->
 
     <script type="module" src="/src/main.js"></script>
   </body>
